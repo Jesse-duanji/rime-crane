@@ -75,6 +75,8 @@ app_options:
     ascii_mode: true
   com.jetbrains.toolbox.linkapp.pcom.jetbrains.toolbox__o_and_2023_2_5:
     ascii_mode: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
 
 
 style:
