@@ -69,6 +69,12 @@ app_options:
   ru.keepcoder.Telegram:
     # 規避 https://github.com/rime/squirrel/issues/475
     inline: true
+  net.ankiweb.dtop:
+    ascii_mode: true
+  com.jetbrains.intellij:
+    ascii_mode: true
+  com.jetbrains.toolbox.linkapp.pcom.jetbrains.toolbox__o_and_2023_2_5:
+    ascii_mode: true
 
 
 style:

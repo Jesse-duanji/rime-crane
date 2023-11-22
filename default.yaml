@@ -11,8 +11,6 @@ config_version: '2023-08-07'
 
 # 方案列表
 schema_list:
-  - schema: flypy                  # 小鹤音形
-  - schema: rime_ice               # 雾凇拼音（全拼）
   - schema: double_pinyin_flypy    # 小鹤双拼
 
 
@@ -58,7 +56,7 @@ switcher:
 ascii_composer:
   good_old_caps_lock: true  # true | false
   switch_key:
-    Caps_Lock: noop       # commit_code | commit_text | clear
+    Caps_Lock: commit_code       # commit_code | commit_text | clear
     Shift_L: inline_ascii # commit_code | commit_text | inline_ascii | clear | noop
     Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
     Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
